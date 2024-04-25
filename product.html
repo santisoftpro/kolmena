@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="vendor/css/select2.min.css">
     <link rel="stylesheet" href="vendor/css/slick-theme.css">
     <link rel="stylesheet" href="vendor/css/slick.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="kolmena/css/settings.css">
     <link rel="stylesheet" type="text/css" href="kolmena/css/navigation.css">
@@ -66,16 +67,24 @@
 
             <!--Nav Links-->
             <div class="collapse navbar-collapse">
-                <div class="navbar-nav ml-250">
-                    <a class="nav-link" href="index.html#home">Home</a>
-                    <a class="nav-link" href="index.html#about">About Us</a>
-                    <a class="nav-link" href="index.html#work">Projects</a>
-                    <a class="nav-link" href="index.html#news">Blog</a>
-                    <a class="nav-link" href="index.html#contactus">Contact Us</a>
-                    <a class="nav-link active" href="product.html">Product</a>
-                </div>
-
-            </div>
+              <div class="navbar-nav ml-250">
+                  <a class="nav-link" href="index.html#home">Home</a>
+                  <a class="nav-link" href="index.html#about">About Us</a>
+                  <a class="nav-link" href="index.html#work">Projects</a>
+                  <a class="nav-link" href="index.html#news">Blog</a>
+                  <div class="dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="serviceDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                      <div class="dropdown-menu" aria-labelledby="serviceDropdown">
+                          <a class="dropdown-item" href="#">Service 1</a>
+                          <a class="dropdown-item" href="#">Service 2</a>
+                          <a class="dropdown-item" href="#">Service 3</a>
+                      </div>
+                  </div>
+                  <a class="nav-link" href="index.html#contactus">Contact Us</a>
+                  <a class="nav-link active" href="product.html">Product</a>
+              </div>
+          </div>
+          
             <!--Side Menu Button-->
             <a href="javascript:void(0)" class="parallax-btn sidemenu_btn" id="sidemenu_toggle">
                 <div class="animated-wrap sidemenu_btn_inner">
@@ -299,7 +308,20 @@
 <script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
 <script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
+
+
 <!--contact form-->
+
+<!-- Bootstrap CSS -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 <script src="vendor/js/contact_us.js"></script>
 <!-- custom script -->
 <script src="https://maps.googleapis.com/maps/api/geocode/json?latlng=-1.9567151,30.1155371&key=AIzaSyC6PLYoPLUohNQQFZUL9Ap-xcS_trAivfQ"></script>
